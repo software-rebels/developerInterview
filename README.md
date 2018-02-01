@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/software-rebels/developerInterview/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+## Welcome to our interview page
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Thank you for attending this interview! 
+This page shows the brief outcome of our reserach in order to drive great discussion among us. 
+In this interview, we would like to discuss two themes.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
+### Theme 1: Does CI activeness change over time?
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+*What kinds of CI jobs are used in Nova project?*
+- pep8, tox-python, docs, functional job
+- Tempest_dsvm_cells
+- Tempest_dsvm_full_devstack_plugin_ceph
+- Tempest−dsvm−neutron−multinode−ful
+- Tempest−dsvm−multinode−live−migration
+- Grenade_dsvm_neutron_multinode
+- Tempest−dsvm−ipa−wholedisk−bios−agent
+```
+```markdown
+*What kinds of review behaviour do CIs impact?*
+Our reseach shows that CI activeness tends to decease after it becomes mature.
+[PUT FIGURE]
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+### Theme 2: How does CI impact code review behavior?
+```markdown
+*How CI activeness jobs will go over time?*
+How do CI jobs impact review:
+ - quality (content, quality etc.)?
+ - cost (time, #revision etc.)?
+ - motivation (participation etc.)?
+```
 
-### Jekyll Themes
+```markdown
+*What is the challenge of CI in the future?*
+based on the previous discussion.
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/software-rebels/developerInterview/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+### Contact Information
+[Toshiki Hirao](http://toshiki-hirao.jpn.org/) 
+Nara Institute of Science and Technology, Nara, Japan
 
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+[Shane McIntosh](http://shanemcintosh.org/) 
+McGill University, Québec, Canada
