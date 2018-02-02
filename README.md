@@ -1,9 +1,9 @@
 
-## Welcome to our interview page
+## Introduction
 
 Thank you for attending this interview! 
-This page shows the brief outcome of our reserach in order to drive great discussion among us. 
-In this interview, we would like to discuss two themes.
+This page shows questions and our recent results.
+In this interview, we would like to discuss two themes as below:
 
 ### Theme 1: Does CI activeness change over time?
 ```markdown
@@ -17,10 +17,11 @@ In this interview, we would like to discuss two themes.
 - Tempest−dsvm−ipa−wholedisk−bios−agent
 ```
 ```markdown
-*What kinds of review behaviour do CIs impact?*
-Our reseach shows that CI activeness tends to decease after it becomes mature.
-[PUT FIGURE]
+*How does CI activeness change over time?*
+- Our research shows that CI activeness tends to decease once it becomes mature. For example, while pep8 job arrived at almost 100% in early period, it decreased to 85% in late period.
 ```
+![activeness](https://user-images.githubusercontent.com/12183635/35738882-0e6b58de-07fe-11e8-92ff-c3f5777caa94.png)
+
 
 ### Theme 2: How does CI impact code review behavior?
 ```markdown
