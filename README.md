@@ -43,7 +43,9 @@ Q2: *What is the challenge (or expectation) of reviewing bots in the future?*
 
 ### Contact Information
 [Toshiki Hirao](http://toshiki-hirao.jpn.org/)
+hirao.toshiki.ho7@is.naist.jp
 Nara Institute of Science and Technology, Nara, Japan
 
 [Shane McIntosh](http://shanemcintosh.org/)
+shane.mcintosh@mcgill.ca
 McGill University, Québec, Canada
