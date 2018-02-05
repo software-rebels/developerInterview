@@ -7,7 +7,7 @@ In this interview, we would like to discuss two themes as below:
 
 ### Theme 1: What are the perceived benefits of reviewing bots in code reviews?
 ```markdown
-*What kinds of jobs in reviewing bots were used by Nova project?*
+Q1: *What kinds of jobs in reviewing bots were used by Nova project?*
 - pep8, tox-python, docs, functional job
 - Tempest_dsvm_cells
 - Tempest_dsvm_full_devstack_plugin_ceph
@@ -17,13 +17,13 @@ In this interview, we would like to discuss two themes as below:
 - Tempest−dsvm−ipa−wholedisk−bios−agent
 ```
 ```markdown
-*How do those jobs contribute to code reviews over time?*
+Q2: *How do those jobs contribute to code reviews over time?*
 - Our research shows that the coverage of a job (i.e., how much of past reviews are verified by the job) tends to decease once it becomes mature. For example, while pep8 job (1st plot) has arrived at almost 100% in early period, it has decreased to 85% in late period.
 ```
 ![activejobcoverageovertime](https://user-images.githubusercontent.com/12183635/35810142-b635c052-0a58-11e8-9de7-1806343bbbbf.jpg)
 
 ```markdown
-*How do those jobs influence code reviews?*
+Q3: *How do those jobs influence code reviews?*
  - quality (content, quality etc.)?
  - cost (time, #revision etc.)?
  - motivation (participation etc.)?
@@ -31,14 +31,14 @@ In this interview, we would like to discuss two themes as below:
 
 ### Theme 2: Do those perceived benefits materialize in historical data?
 ```markdown
-*What kinds of features show those perceived benefits?*
+Q1: *What kinds of features show those perceived benefits?*
  - quality -> bug information?
  - cost -> review time or discussion length?
  - motivation -> The number of review participants?
 ```
 
 ```markdown
-*What is the challenge (or expectation) of reviewing bots in the future?*
+Q2: *What is the challenge (or expectation) of reviewing bots in the future?*
 ```
 
 ### Contact Information
