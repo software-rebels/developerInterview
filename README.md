@@ -1,13 +1,13 @@
 
 ## Introduction
 
-Thank you for attending this interview! 
-This page shows questions and our recent results.
+Thank you for joining this interview!
+This page shows interview questions with our recent results.
 In this interview, we would like to discuss two themes as below:
 
-### Theme 1: Does CI activeness change over time?
+### Theme 1: What are the perceived benefits of reviewing bots in code reviews?
 ```markdown
-*What kinds of CI jobs are used in Nova project?*
+*What kinds of jobs in reviewing bots were used by Nova project?*
 - pep8, tox-python, docs, functional job
 - Tempest_dsvm_cells
 - Tempest_dsvm_full_devstack_plugin_ceph
@@ -17,29 +17,33 @@ In this interview, we would like to discuss two themes as below:
 - Tempest−dsvm−ipa−wholedisk−bios−agent
 ```
 ```markdown
-*How does CI activeness change over time?*
-- Our research shows that CI activeness tends to decease once it becomes mature. For example, while pep8 job arrived at almost 100% in early period, it decreased to 85% in late period.
+*How do those jobs contribute to code reviews over time?*
+- Our research shows that the coverage of a job (i.e., how much of past reviews are verified by the job) tends to decease once it becomes mature. For example, while pep8 job (1st plot) has arrived at almost 100% in early period, it has decreased to 85% in late period.
 ```
-![activeness](https://user-images.githubusercontent.com/12183635/35738882-0e6b58de-07fe-11e8-92ff-c3f5777caa94.png)
+![activejobcoverageovertime](https://user-images.githubusercontent.com/12183635/35810142-b635c052-0a58-11e8-9de7-1806343bbbbf.jpg)
 
-
-### Theme 2: How does CI impact code review behavior?
 ```markdown
-*How CI activeness jobs will go over time?*
-How do CI jobs impact review:
+*How do those jobs influence code reviews?*
  - quality (content, quality etc.)?
  - cost (time, #revision etc.)?
  - motivation (participation etc.)?
 ```
 
+### Theme 2: Do those perceived benefits materialize in historical data?
 ```markdown
-*What is the challenge of CI in the future?*
-based on the previous discussion.
+*What kinds of features show those perceived benefits?*
+ - quality -> bug information?
+ - cost -> review time or discussion length?
+ - motivation -> The number of review participants?
+```
+
+```markdown
+*What is the challenge (or expectation) of reviewing bots in the future?*
 ```
 
 ### Contact Information
-[Toshiki Hirao](http://toshiki-hirao.jpn.org/) 
+[Toshiki Hirao](http://toshiki-hirao.jpn.org/)
 Nara Institute of Science and Technology, Nara, Japan
 
-[Shane McIntosh](http://shanemcintosh.org/) 
+[Shane McIntosh](http://shanemcintosh.org/)
 McGill University, Québec, Canada
