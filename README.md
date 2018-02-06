@@ -17,12 +17,13 @@ Q1-1: *What kinds of jobs in reviewing bots were used by Nova project?*
 - Grenade_dsvm_neutron_multinode
 - Tempest−dsvm−ipa−wholedisk−bios−agent
 
-Q1-2: *Which jobs are necessary or optional to verify codes?*
+Q1-2: *Which jobs are necessary or optional to verify source code?*
 -> We would like to know what jobs are needed to study
 ```
 ```markdown
-Q2: *How do those jobs contribute to code reviews over time?*
+Q2: *How have those jobs been used in code reviews over time?*
 - Our research shows that the coverage of a job (i.e., how much of past reviews are verified by the job) tends to decease once it becomes mature. For example, while pep8 job (1st plot) has arrived at almost 100% in early period, it has decreased to 85% in late period.
+- 
 ```
 ![activejobcoverageovertime](https://user-images.githubusercontent.com/12183635/35810142-b635c052-0a58-11e8-9de7-1806343bbbbf.jpg)
 
@@ -42,7 +43,7 @@ Q1: *What kinds of features show those perceived benefits?*
 ```
 
 ```markdown
-Q2: *What is the challenge (or expectation) of reviewing bots in the future?*
+Q2: *What are the challenges or your expectations of reviewing bots of the future?*
 ```
 
 ### Contact Information
