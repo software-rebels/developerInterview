@@ -22,31 +22,31 @@ Q1-2: *Which jobs are necessary or optional to verify source code?*
 ```
 ```markdown
 Q2: *How have the jobs been used in code reviews over time?*
-- Our research shows that the coverage of a job (i.e., how much of past reviews are verified by the job) tends to decease once it becomes mature. For example, while pep8 job (1st plot) has arrived at almost 100% in early period, it has decreased to 85% in late period.
-- 
+- Coverage of a job equals how much of reviews run the job per a hundred reviews in order.
+- Tox-python job (2nd plot) has reached almost 100% in early period, then has decreased to 85% over time.
 ```
 ![activejobcoverageovertime](https://user-images.githubusercontent.com/12183635/35810142-b635c052-0a58-11e8-9de7-1806343bbbbf.jpg)
 
 ```markdown
 Q3: *Are the Jenkins's jobs expected to detect minor issues?*
- - typo
- - the basic rule of documentation
- - code convention etc.
+ - Typo
+ - Documentation rule
+ - Code convention etc.
 ```
 
 ```markdown
 Q4: *How do those jobs influence code reviews?*
- - quality (content, quality etc.)?
- - cost (time, #revision etc.)?
- - motivation (participation etc.)?
+ - Quality (content, quality etc.)?
+ - Cost (time, #revision etc.)?
+ - Motivation (participation etc.)?
 ```
 
 ### Theme 2: Do those perceived benefits materialize in historical data?
 ```markdown
 Q1: *What kinds of features show those perceived benefits?*
- - quality -> bug information?
- - cost -> review time or discussion length?
- - motivation -> The number of review participants?
+ - Quality -> bug information?
+ - Cost -> review time or discussion length?
+ - Motivation -> The number of review participants?
 ```
 
 ```markdown
@@ -54,12 +54,14 @@ Q2: *What are the challenges or your expectations of reviewing bots of the futur
 ```
 
 ### Contact Information
-[Toshiki Hirao](http://toshiki-hirao.jpn.org/)
+Toshiki Hirao
 
 hirao.toshiki.ho7@is.naist.jp
+
 Nara Institute of Science and Technology, Nara, Japan
 
-[Shane McIntosh](http://shanemcintosh.org/)
+Shane McIntosh
 
 shane.mcintosh@mcgill.ca
+
 McGill University, Québec, Canada
